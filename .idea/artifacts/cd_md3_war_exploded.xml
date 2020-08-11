@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cd-md3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/cd_md3_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cd-md3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cd-md3" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+          <element id="library" level="project" name="gson-2.8.6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
